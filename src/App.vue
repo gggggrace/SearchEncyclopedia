@@ -36,4 +36,11 @@
     margin-left: -300px;
     margin-top: -100px;
   }
+  @media screen and (max-width: 480px){
+    #app{
+      width: auto;
+      margin-left: 0;
+      left: 0;
+    }
+  }
 </style>

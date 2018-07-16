@@ -203,4 +203,16 @@
     cursor: pointer
   }
   .search-select ul{margin:0;text-align: left; }
+
+  @media screen and (max-width: 480px){
+    .search-input{
+      width: 350px;
+    }
+    .search-input input{
+      width: 250px;
+    }
+    .search-select{
+      width: 250px;
+    }
+  }
 </style>

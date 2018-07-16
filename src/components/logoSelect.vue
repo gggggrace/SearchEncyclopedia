@@ -53,7 +53,7 @@
 <style type="text/css">
   ul{list-style: none;padding: 0;margin: 0}
   .main-logo {
-    width: 600px;
+    /*width: 600px;*/
     height: 140px;
     position: relative;
   }
@@ -110,4 +110,16 @@
     transform: translateY(20px);
   }
   .selectBack{background-color: #eee !important;cursor: pointer}
+
+  @media screen and (max-width: 480px){
+    .logoList-arrow{
+      right: 70px;
+    }
+    .main-logo img{
+      margin-left: -65px;
+    }
+    .logoList li img{
+      margin-left: 0;
+    }
+  }
 </style>

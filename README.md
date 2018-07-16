@@ -1,6 +1,7 @@
 # search-encyclopedia
 
 > A Vue.js project
+预览地址：https://gggggrace.github.io/SearchEncyclopedia/dist/index.html#/
 
 ## Build Setup
 
